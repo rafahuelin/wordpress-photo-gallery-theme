@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html <?php language_attributes(); ?>">
 <head>
-    <meta charset="UTF-8">
-    <title>Photo Gallery</title>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <title><?php bloginfo('name'); ?></title>
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <?php wp_head(); ?>
 </head>
 <body>
 <header class="w3-container w3-teal">
