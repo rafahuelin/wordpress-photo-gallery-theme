@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body>
 <header class="w3-container w3-teal">
